@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+body{
+    margin: 0;
+    background: #232525;
+    font-family: 'Diadact Gothic';
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pBlue{
+    color: #A9B7C6;
+}
+
+.orange{
+    color: #E79427;
+}
+
+.purple{
+    color: #9876AA;
+}
+
+.blue{
+    color: #3978BB;
+}
+
+.red{
+    color: #FF1053;
+}
+
+.lgreen{
+    color: #ACEB98;
+}
+
+.white{
+    color: rgb(230, 230, 230)
+}
+
+a:link{
+    color: #3978BB;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #3978BB;
+}
+
+a:hover{
+    color: #FF1053;
+}
+
+h1{
+    position: relative;
+    font-family: 'Diadect Gothic';
+    font-weight: 250;
+}
+
+header{
+    background: #232525;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;;
+}
+
+.logo{
+    float:left;
+    padding: 10px 0;
+}
+
+nav{
+    float:right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    position: relative;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+
+nav a{
+    font-size: 14px;
+    color: rgb(230, 230, 230) !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #FF1053 !important;
+}
+
+nav a:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 5px;
+    transition: all ease-in-out 250ms;
+    background-color: #FF1053 !important;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textbox{
+    width: 60%;
+}
+
+.left{
+    text-align: left;
+    width: 40%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border-bottom: 3px solid;
+    border-color:#A9B7C6;
+}
+
+.right{
+    text-align: right;
+    width: 50%;
+}
